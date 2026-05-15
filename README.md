@@ -18,6 +18,14 @@
 
 The project is built as a mini-project friendly Android Studio application with a polished honey-themed interface, login/signup flow, bottom navigation, fragments, cards, gradients, and generated visual assets.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7719fb43-497a-426d-99ca-9ed4868cfac8" alt="jenuGumpu screen 1" height="420" />
+  <img src="https://github.com/user-attachments/assets/e042162b-8fad-4935-9c7d-58b8f90e8b29" alt="jenuGumpu screen 2" height="420" />
+  <img src="https://github.com/user-attachments/assets/35d30950-c46e-4b6c-92ea-3507cbc23a54" alt="jenuGumpu screen 3" height="420" />
+  <img src="https://github.com/user-attachments/assets/1bd5706d-6eb6-4125-a5e7-257410770f6c" alt="jenuGumpu screen 4" height="420" />
+  <img src="https://github.com/user-attachments/assets/52c54708-002a-4175-8da6-7d579dd83040" alt="jenuGumpu screen 5" height="420" />
+</p>
+
 ## App Preview
 
 | Login / Signup | Honey Dashboard | Harvest Entry | Market and Cart |
