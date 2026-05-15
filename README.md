@@ -8,6 +8,11 @@
 ![Material UI](https://img.shields.io/badge/Material-Design-C47A00?style=for-the-badge)
 
 ## Overview
+<img width="717" height="1600" alt="WhatsApp Image 2026-05-15 at 10 37 07 PM" src="https://github.com/user-attachments/assets/7719fb43-497a-426d-99ca-9ed4868cfac8" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-05-15 at 10 37 06 PM" src="https://github.com/user-attachments/assets/e042162b-8fad-4935-9c7d-58b8f90e8b29" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-05-15 at 10 37 06 PM (2)" src="https://github.com/user-attachments/assets/35d30950-c46e-4b6c-92ea-3507cbc23a54" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-05-15 at 10 37 06 PM (1)" src="https://github.com/user-attachments/assets/1bd5706d-6eb6-4125-a5e7-257410770f6c" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-05-15 at 10 37 05 PM" src="https://github.com/user-attachments/assets/52c54708-002a-4175-8da6-7d579dd83040" />
 
 **jenuGumpu Honey Hub** is a Kotlin and XML based Android application designed for honey harvesters, small honey sellers, local buyers, and self-employment groups. The app helps users record honey harvest details such as **floral source**, **moisture percentage**, and **litres harvested**, then manage buying and selling through a simple honey marketplace and cart.
 
