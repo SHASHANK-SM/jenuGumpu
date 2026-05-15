@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FullCard">
+
+    <LinearLayout
+        style="@style/CardInner"
+        android:background="@drawable/bg_glass_panel"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/productName"
+            style="@style/Text_CardTitle" />
+
+        <TextView
+            android:id="@+id/productCategory"
+            style="@style/Text_Body"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            style="@style/Text_Metric"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/productStatus"
+            style="@style/Text_Tag"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

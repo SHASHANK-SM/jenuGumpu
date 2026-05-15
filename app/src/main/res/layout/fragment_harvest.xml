@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_honey_screen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_harvest_card"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                style="@style/Text_HeroLight"
+                android:text="Honey Harvest Entry" />
+
+            <TextView
+                style="@style/Text_BodyLight"
+                android:layout_marginTop="6dp"
+                android:text="Record floral source, moisture percentage, and harvested litres for each batch." />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/InputBox"
+            android:layout_marginTop="20dp"
+            android:hint="Floral source">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/floralSourceInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/InputBox"
+            android:hint="Moisture percentage">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/moistureInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/InputBox"
+            android:hint="Litres harvested">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/litresInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveHarvestButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:text="Save Harvest Batch"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="10dp" />
+
+        <TextView
+            android:id="@+id/harvestResult"
+            style="@style/Text_Result"
+            android:layout_marginTop="18dp"
+            android:text="Harvest quality result will appear here." />
+    </LinearLayout>
+</ScrollView>

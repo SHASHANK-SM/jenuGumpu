@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_harvest"
+        android:icon="@drawable/ic_harvest"
+        android:title="Harvest" />
+    <item
+        android:id="@+id/nav_marketplace"
+        android:icon="@drawable/ic_market"
+        android:title="Market" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart" />
+</menu>

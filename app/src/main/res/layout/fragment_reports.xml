@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_feature_band"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                style="@style/Text_Hero"
+                android:text="Business Reports" />
+
+            <TextView
+                style="@style/Text_Body"
+                android:layout_marginTop="6dp"
+                android:text="Track progress, discover patterns, and act on AI-powered growth tips." />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            style="@style/FullCard"
+            android:layout_marginTop="18dp">
+            <LinearLayout
+                style="@style/CardInner"
+                android:orientation="vertical">
+                <TextView style="@style/Text_Label" android:text="Total Sales" />
+                <TextView android:id="@+id/salesValue" style="@style/Text_Metric" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/FullCard">
+            <LinearLayout
+                style="@style/CardInner"
+                android:orientation="vertical">
+                <TextView style="@style/Text_Label" android:text="Completed Orders" />
+                <TextView android:id="@+id/ordersValue" style="@style/Text_Metric" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/aiTip"
+            style="@style/Text_Result"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

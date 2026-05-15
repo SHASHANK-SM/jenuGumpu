@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">jenuGumpu</string>
+    <string name="dashboard_title">jenuGumpu Udyoga Setu</string>
+    <string name="dashboard_subtitle">A GenAI-powered self-employment companion for small entrepreneurs, artisans, and local service providers.</string>
+</resources>

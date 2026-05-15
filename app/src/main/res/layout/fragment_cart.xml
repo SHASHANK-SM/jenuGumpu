@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_honey_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/Text_Hero"
+            android:text="Honey Cart" />
+
+        <TextView
+            style="@style/Text_Body"
+            android:layout_marginTop="6dp"
+            android:text="Buy pure honey or prepare sell orders for local customers." />
+
+        <androidx.cardview.widget.CardView
+            style="@style/FullCard">
+            <LinearLayout
+                style="@style/CardInner"
+                android:orientation="vertical">
+                <TextView style="@style/Text_CardTitle" android:text="Forest Blossom Honey" />
+                <TextView style="@style/Text_Body" android:layout_marginTop="4dp" android:text="2 litres selected from premium harvest batch" />
+                <TextView style="@style/Text_Metric" android:layout_marginTop="8dp" android:text="Rs.760" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/FullCard">
+            <LinearLayout
+                style="@style/CardInner"
+                android:orientation="vertical">
+                <TextView style="@style/Text_CardTitle" android:text="Sell Order Draft" />
+                <TextView style="@style/Text_Body" android:layout_marginTop="4dp" android:text="Add your harvested litres to marketplace stock and confirm buyer requests." />
+                <TextView style="@style/Text_Tag" android:layout_marginTop="8dp" android:text="Buy + Sell enabled" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/checkoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:text="Place Cart Request"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="10dp" />
+
+        <TextView
+            android:id="@+id/cartStatus"
+            style="@style/Text_Result"
+            android:layout_marginTop="16dp"
+            android:text="Cart status will appear here." />
+    </LinearLayout>
+</ScrollView>

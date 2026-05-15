@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/Text_Hero"
+            android:text="Business Reports" />
+
+        <androidx.cardview.widget.CardView
+            style="@style/FullCard"
+            android:layout_marginTop="18dp">
+            <LinearLayout style="@style/CardInner">
+                <TextView style="@style/Text_Label" android:text="Total Sales" />
+                <TextView android:id="@+id/salesValue" style="@style/Text_Metric" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/FullCard">
+            <LinearLayout style="@style/CardInner">
+                <TextView style="@style/Text_Label" android:text="Completed Orders" />
+                <TextView android:id="@+id/ordersValue" style="@style/Text_Metric" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/aiTip"
+            style="@style/Text_Result"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

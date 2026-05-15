@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/Text_Hero"
+            android:text="@string/dashboard_title" />
+
+        <TextView
+            style="@style/Text_Body"
+            android:layout_marginTop="6dp"
+            android:text="@string/dashboard_subtitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                style="@style/MetricCard"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout style="@style/CardInner">
+                    <TextView style="@style/Text_Label" android:text="Monthly Income" />
+                    <TextView style="@style/Text_Metric" android:text="Rs.24.8k" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/MetricCard"
+                android:layout_width="0dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1">
+
+                <LinearLayout style="@style/CardInner">
+                    <TextView style="@style/Text_Label" android:text="Active Orders" />
+                    <TextView style="@style/Text_Metric" android:text="126" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            style="@style/Text_Section"
+            android:layout_marginTop="22dp"
+            android:text="AI Opportunity Picks" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/opportunityList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+</ScrollView>
